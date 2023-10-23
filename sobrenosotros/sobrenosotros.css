@@ -1,0 +1,98 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	background-repeat: no-repeat;
+}
+
+.tarjet-1 {
+	padding-top: 190px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+.tarjet-2 {
+	margin-top: 200px;
+	padding: 15px 20px;
+	width: 90%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: 0 auto;
+	border: 1px solid black;
+	transition: ease-in-out 0.5s;
+	&:hover {
+		box-shadow: inset 0 0 10px .1px;
+		border-radius: 5px;
+		border: 0;
+		.imgNosotros {
+			translate: -5px -5px;
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgb(247, 133, 27);
+		}
+	}
+}
+
+.imgNosotros {
+	width: 300px;
+	box-shadow: 0 0 10px;
+	transition: all 0.5s;
+}
+
+.nuestros-clientes {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.tarjet {
+	margin-top: 200px;
+	padding: 15px 20px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: 0 auto;
+	border: 1px solid black;
+}
+
+.formularios {
+	display: flex;
+	text-align: center;
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-around;
+	gap: 20px;
+	.textosform {
+		margin-top: 20px;
+		font-size: 1.5em;
+		font-weight: bold;
+		line-height: 80px;
+	}
+	.textos {
+		font-size: 1.5em;
+		font-weight: bold;
+		line-height: 80px;
+	}
+}
+
+.formularios fieldset {
+	width: 80%;
+	padding: 30px 45px;
+}
+
+textarea {
+	width: 55%;
+	height: 150px;
+}
+
+.inp {
+	width: 300px;
+	height: 40px;
+}
+
+.bg-primary {
+	background-color: red;
+}
